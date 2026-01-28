@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AI for Recruitment Training - Luxury Hotels (Bangkok)</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+            body {
+                font-family: "Inter", sans-serif;
+                scroll-behavior: smooth;
+            }
+            .luxury-gradient {
+                background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            }
+        </style>
+    </head>
+    <body class="bg-slate-50 text-slate-900">
+        <!-- Header / Navigation -->
+        <nav
+            class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200"
+        >
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16 items-center">
+                    <div
+                        class="font-bold text-xl tracking-tight text-slate-800"
+                    >
+                        SYSTEM <span class="text-indigo-600">IN MOTION</span>
+                    </div>
+                    <div class="hidden md:flex space-x-8 text-sm font-medium">
+                        <a
+                            href="#about"
+                            class="hover:text-indigo-600 transition"
+                            >About</a
+                        >
+                        <a
+                            href="#gains"
+                            class="hover:text-indigo-600 transition"
+                            >Curriculum</a
+                        >
+                        <a
+                            href="#outcomes"
+                            class="hover:text-indigo-600 transition"
+                            >Outcomes</a
+                        >
+                    </div>
+                    <a
+                        href="https://system-in-motion.com/en"
+                        target="_blank"
+                        class="text-sm text-indigo-600 font-semibold border border-indigo-600 px-4 py-2 rounded-full hover:bg-indigo-50 transition"
+                    >
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section with Summary -->
+        <header class="luxury-gradient text-white py-20 px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div
+                    class="inline-block px-3 py-1 bg-indigo-500/20 rounded-full text-indigo-300 text-sm font-semibold mb-6 border border-indigo-500/30"
+                >
+                    Luxury Hotels HR Specialization
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    AI for Recruitment Training
+                </h1>
+
+                <!-- Summary Block -->
+                <div
+                    class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/10 mb-10 max-w-3xl mx-auto"
+                >
+                    <p
+                        class="text-lg md:text-xl text-slate-200 leading-relaxed font-light"
+                    >
+                        Master the strategic application of AI in talent
+                        sourcing, candidate screening, and employer branding. An
+                        intensive 3-hour session designed to help established
+                        luxury hotels build a smarter, faster, and more
+                        effective hiring engine.
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button
+                        onclick="scrollToRequest()"
+                        class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-indigo-500/30 transition transform hover:-translate-y-1"
+                    >
+                        Request Information
+                    </button>
+                    <div
+                        class="flex items-center gap-2 text-slate-300 px-4 py-4"
+                    >
+                        <i data-lucide="calendar" class="w-5 h-5"></i>
+                        <span>To be confirmed (Q1/Q2 2026)</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Info Bar -->
+        <div class="bg-white border-b border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 py-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <p
+                            class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-1"
+                        >
+                            Date
+                        </p>
+                        <p class="font-semibold italic">TBC (Q1/Q2 2026)</p>
+                    </div>
+                    <div>
+                        <p
+                            class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-1"
+                        >
+                            Location
+                        </p>
+                        <p class="font-semibold">Bangkok (English)</p>
+                    </div>
+                    <div>
+                        <p
+                            class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-1"
+                        >
+                            Fee
+                        </p>
+                        <p class="font-semibold text-green-600">
+                            Free (Approval Required)
+                        </p>
+                    </div>
+                    <div>
+                        <p
+                            class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-1"
+                        >
+                            Facilitators
+                        </p>
+                        <p class="font-semibold">
+                            Stephane & Gonzague / Mishari
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 py-16 space-y-24">
+            <!-- Description -->
+            <section id="about" class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Course Description</h2>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Developed by <strong>System in Motion</strong> and
+                        <strong>Shi Bisset</strong>, this training is designed
+                        for established companies ready to revolutionize their
+                        hiring function. Move beyond basic automation and master
+                        the strategic application of AI.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3">
+                            <div
+                                class="bg-indigo-100 p-1 rounded text-indigo-600"
+                            >
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span
+                                >Dense, actionable content and hands-on
+                                exercises.</span
+                            >
+                        </li>
+                        <li class="flex gap-3">
+                            <div
+                                class="bg-indigo-100 p-1 rounded text-indigo-600"
+                            >
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span
+                                >Direct link between AI integration and business
+                                outcomes.</span
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="bg-slate-200 rounded-3xl aspect-video relative overflow-hidden flex items-center justify-center"
+                >
+                    <div class="text-slate-400 text-center">
+                        <i
+                            data-lucide="sparkles"
+                            class="w-16 h-16 mx-auto mb-2 opacity-50"
+                        ></i>
+                        <p>AI-Driven Methodology</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why This Training -->
+            <section class="bg-slate-900 text-white rounded-[2rem] p-8 md:p-16">
+                <h2 class="text-3xl font-bold mb-12 text-center">
+                    Why This Training?
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="space-y-4">
+                        <i
+                            data-lucide="award"
+                            class="w-8 h-8 text-indigo-400"
+                        ></i>
+                        <h3 class="font-bold text-xl">Elevate Brand</h3>
+                        <p class="text-slate-400 text-sm">
+                            Craft AI-assisted communications reflecting your
+                            unique value proposition.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <i
+                            data-lucide="clock"
+                            class="w-8 h-8 text-indigo-400"
+                        ></i>
+                        <h3 class="font-bold text-xl">Reduce Time</h3>
+                        <p class="text-slate-400 text-sm">
+                            Cut screening hours while improving candidate
+                            quality and fit.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <i
+                            data-lucide="users"
+                            class="w-8 h-8 text-indigo-400"
+                        ></i>
+                        <h3 class="font-bold text-xl">Mitigate Bias</h3>
+                        <p class="text-slate-400 text-sm">
+                            Implement structured, AI-enhanced processes for
+                            diverse pipelines.
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <i
+                            data-lucide="trending-up"
+                            class="w-8 h-8 text-indigo-400"
+                        ></i>
+                        <h3 class="font-bold text-xl">Gain Edge</h3>
+                        <p class="text-slate-400 text-sm">
+                            Secure top talent before competitors with unmatched
+                            efficiency.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gains & Modules -->
+            <section id="gains">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold">What You'll Gain</h2>
+                    <p class="text-slate-500 mt-2">
+                        Comprehensive modules for the modern HR leader
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div
+                        class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition"
+                    >
+                        <div
+                            class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6"
+                        >
+                            <i data-lucide="search"></i>
+                        </div>
+                        <h3 class="font-bold text-xl mb-4">Sourcing</h3>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Utilize AI to analyze successful role profiles and
+                            generate data-driven job descriptions.
+                        </p>
+                        <p class="text-slate-600 text-sm italic">
+                            Identify passive candidates proactively.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition"
+                    >
+                        <div
+                            class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6"
+                        >
+                            <i data-lucide="filter"></i>
+                        </div>
+                        <h3 class="font-bold text-xl mb-4">Screening</h3>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Develop consistent, bias-free screening criteria
+                            using advanced AI models.
+                        </p>
+                        <p class="text-slate-600 text-sm italic">
+                            Automate resume and portfolio analysis.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition"
+                    >
+                        <div
+                            class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6"
+                        >
+                            <i data-lucide="message-square text-indigo-600"></i>
+                        </div>
+                        <h3 class="font-bold text-xl mb-4">Communication</h3>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Generate personalized, timely communication
+                            sequences to enhance experience.
+                        </p>
+                        <p class="text-slate-600 text-sm italic">
+                            Create role-specific dynamic interview guides.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Outcome Section -->
+            <section id="outcomes" class="bg-indigo-50 rounded-3xl p-8 md:p-16">
+                <div class="max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold mb-8 text-center">
+                        Your Outcome
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="mt-1 bg-white p-2 rounded-full shadow-sm text-indigo-600"
+                            >
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="w-5 h-5"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold">
+                                    Design compelling role briefs
+                                </p>
+                                <p class="text-slate-600 text-sm">
+                                    Informed by AI-driven market and success
+                                    data.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="mt-1 bg-white p-2 rounded-full shadow-sm text-indigo-600"
+                            >
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="w-5 h-5"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold">
+                                    Implement AI-augmented screening
+                                </p>
+                                <p class="text-slate-600 text-sm">
+                                    Efficiently identify top talent from large
+                                    pools.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="mt-1 bg-white p-2 rounded-full shadow-sm text-indigo-600"
+                            >
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="w-5 h-5"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold">
+                                    Branded Communication Strategy
+                                </p>
+                                <p class="text-slate-600 text-sm">
+                                    Execute consistent sequences built with AI
+                                    tools.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Request for Information / Register -->
+            <section id="request" class="max-w-2xl mx-auto text-center py-10">
+                <h2 class="text-3xl font-bold mb-4">
+                    Ready to Master the Future?
+                </h2>
+                <p class="text-slate-600 mb-10">
+                    HR Directors and Specialists: modernization starts here.
+                    Enroll today for the upcoming session in Bangkok.
+                </p>
+
+                <form
+                    id="requestForm"
+                    class="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 text-left space-y-6"
+                >
+                    <div>
+                        <label
+                            class="block text-sm font-bold text-slate-700 mb-2"
+                            >Email Address</label
+                        >
+                        <input
+                            type="email"
+                            id="userEmail"
+                            required
+                            placeholder="your@email.com"
+                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                        />
+                    </div>
+                    <button
+                        type="submit"
+                        id="submitBtn"
+                        class="w-full bg-indigo-600 hover:bg-indigo-500 text-white py-4 rounded-xl font-bold shadow-lg transition flex items-center justify-center gap-2"
+                    >
+                        <span id="btnText">Request Full Course Syllabus</span>
+                        <i
+                            id="btnIcon"
+                            data-lucide="arrow-right"
+                            class="w-5 h-5"
+                        ></i>
+                    </button>
+                    <p class="text-center text-xs text-slate-400">
+                        Venue details will be shared upon training approval.
+                    </p>
+                </form>
+                <div
+                    id="successMsg"
+                    class="hidden mt-6 p-4 bg-green-50 border border-green-200 text-green-700 rounded-xl"
+                >
+                    Thank you! Your request has been sent via our workflow. We
+                    will contact you shortly.
+                </div>
+                <div
+                    id="errorMsg"
+                    class="hidden mt-6 p-4 bg-red-50 border border-red-200 text-red-700 rounded-xl text-sm"
+                >
+                    Something went wrong. Please try again or visit our website.
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer
+            class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800"
+        >
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <div class="font-bold text-xl text-white mb-4">
+                    SYSTEM IN MOTION
+                </div>
+                <p class="mb-8 max-w-md mx-auto">
+                    Empowering teams with proven AI mastery in Bangkok.
+                </p>
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a
+                        href="https://system-in-motion.com/en"
+                        target="_blank"
+                        class="hover:text-white transition underline"
+                        >Official Website</a
+                    >
+                    <a href="#" class="hover:text-white transition"
+                        >Privacy Policy</a
+                    >
+                </div>
+                <p class="text-xs">
+                    &copy; 2026 System in Motion. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            // Initialize Lucide Icons
+            lucide.createIcons();
+
+            // Configuration
+            const N8N_WEBHOOK_URL = "YOUR_N8N_WEBHOOK_URL_HERE"; // Replace with your actual n8n webhook URL
+
+            // Smooth Scroll function
+            function scrollToRequest() {
+                document
+                    .getElementById("request")
+                    .scrollIntoView({ behavior: "smooth" });
+            }
+
+            // Handle Form Submission
+            document
+                .getElementById("requestForm")
+                .addEventListener("submit", async function (e) {
+                    e.preventDefault();
+
+                    const email = document.getElementById("userEmail").value;
+                    const submitBtn = document.getElementById("submitBtn");
+                    const btnText = document.getElementById("btnText");
+                    const successMsg = document.getElementById("successMsg");
+                    const errorMsg = document.getElementById("errorMsg");
+
+                    // Reset UI
+                    successMsg.classList.add("hidden");
+                    errorMsg.classList.add("hidden");
+                    btnText.innerText = "Sending...";
+                    submitBtn.disabled = true;
+                    submitBtn.classList.add("opacity-50", "cursor-not-allowed");
+
+                    try {
+                        // Call n8n Workflow Webhook
+                        const response = await fetch(N8N_WEBHOOK_URL, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body: JSON.stringify({
+                                email: email,
+                                event: "AI Recruitment Training Bangkok",
+                                timestamp: new Date().toISOString(),
+                                source_url: window.location.href,
+                            }),
+                        });
+
+                        if (response.ok) {
+                            successMsg.classList.remove("hidden");
+                            this.reset();
+                            btnText.innerText = "Sent!";
+                        } else {
+                            throw new Error("Webhook failed");
+                        }
+                    } catch (error) {
+                        console.error("Submission Error:", error);
+                        errorMsg.classList.remove("hidden");
+                        btnText.innerText = "Request Full Course Syllabus";
+                        submitBtn.disabled = false;
+                        submitBtn.classList.remove(
+                            "opacity-50",
+                            "cursor-not-allowed",
+                        );
+                    }
+                });
+        </script>
+    </body>
+</html>
