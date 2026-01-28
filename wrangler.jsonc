@@ -1,0 +1,8 @@
+{
+  "name": "sim-ai-hr-hotel",
+  "main": "tracking-worker.js",
+  "compatibility_date": "2026-01-28",
+  "assets": {
+    "directory": ".",
+  },
+}
